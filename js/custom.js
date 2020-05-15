@@ -82,6 +82,11 @@ $(document).ready(function()
 		setHeader();
 	});
 
+	// Initiate the venobox plugin
+	$(window).on('load', function() {
+		$('.venobox').venobox();
+	});
+
 	$(document).on('scroll', function()
 	{
 		setHeader();
