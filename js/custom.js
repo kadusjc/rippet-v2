@@ -17,7 +17,7 @@
 $(document).ready(function()
 {
 	"use strict";
-
+	
 	/*
 
 	0. Smooth scroll
@@ -63,7 +63,13 @@ $(document).ready(function()
 		  }
 		}
 	  });
-	/* 
+
+	/*
+		VENOBOX	  
+	*/ 
+	$('.venobox').venobox();
+	
+	/*
 
 	1. Vars and Inits
 
@@ -80,11 +86,6 @@ $(document).ready(function()
 	$(window).on('resize', function()
 	{
 		setHeader();
-	});
-
-	// Initiate the venobox plugin
-	$(window).on('load', function() {
-		$('.venobox').venobox();
 	});
 
 	$(document).on('scroll', function()
