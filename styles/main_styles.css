@@ -760,7 +760,7 @@ Hamburger
 .home
 {
 	width: 100%;
-	height: 600px;
+	height: 620px;
 }
 .home_slider_container
 {
@@ -1401,7 +1401,7 @@ Hamburger
 {
 	font-size: 14px;
 	font-weight: 400;
-	color: #b5b8be;
+	color: #b5b8be;	
 }
 .footer_contact_info ul li:not(:last-child)
 {
@@ -1430,11 +1430,33 @@ Hamburger
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	text-decoration: none;		
 }
 .footer_links_container ul li:not(:last-child)
 {
 	margin-bottom: 15px;
 }
+
+.footer_contact_info ul li a:hover 
+{
+	color: white;
+}
+
+.footer_contact_info ul li a:active
+{
+	color: white;
+}
+
+.footer_contact_info ul li a:visited
+{
+	color: white;
+}
+
+.footer_contact_info ul li a:link
+{
+	color: white;
+}
+
 .footer_links_container ul li a:hover
 {
 	color: #14bdee;
@@ -1443,6 +1465,7 @@ Hamburger
 {
 	display: inline-block;
 	float: right;
+	text-decoration: none;		
 }
 .footer_mobile_content
 {
