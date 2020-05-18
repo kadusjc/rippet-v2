@@ -797,12 +797,29 @@ Hamburger
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 1.2;
-	color: #76777a;
+	color: #ffffff;
+	font-size: 80px;
+  	color: #fff;
+  	text-align: center;
+  	-webkit-animation: home_slider_title 1s ease-in-out infinite alternate;
+  	-moz-animation: home_slider_title 1s ease-in-out infinite alternate;
+  	animation: home_slider_title 1s ease-in-out infinite alternate;
 }
+
+
+@-webkit-keyframes home_slider_title {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0000cc, 0 0 40px #14bdee, 0 0 50px #0000fc, 0 0 60px #0000aa, 0 0 70px #14bdee;
+	}
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #14bdee, 0 0 40px #0000cc, 0 0 50px #14bdee, 0 0 60px #0000aa, 0 0 70px #0000fc, 0 0 80px #14bdee;
+	}
+}        
+
 .home_slider_subtitle
 {
 	font-size: 24px;
-	color: #ffffff;
+	color: #000000;
 	margin-top: 9px;
 }
 .home_slider_form_container
@@ -1170,6 +1187,7 @@ Hamburger
 }
 .ballot
 {
+	margin-top: 30px;
 	width: 100%;
 	border-radius: 6px;
 	background: #FFFFFF;
