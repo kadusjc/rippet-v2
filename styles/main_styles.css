@@ -360,8 +360,8 @@ Header Content
 }
 .header.scrolled .header_content
 {
-	margin:15px;
-	height: 96px;
+	margin-top:25px;
+	height: 95px;
 }
 
 /*********************************
@@ -416,8 +416,8 @@ Header Content
 }
 .header.scrolled .logo
 {
-	width: 55px;
-	height: 55px;
+	width: 65px;
+	height: 65px;
 }
 .header.scrolled .logo_text
 {
