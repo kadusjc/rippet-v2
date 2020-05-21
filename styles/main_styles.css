@@ -273,7 +273,7 @@ Top Bar
 }
 .header.scrolled .top_bar
 {
-	
+
 }
 .top_bar_container
 {
@@ -351,7 +351,7 @@ Header Content
 }
 .header_content
 {
-	height: 90px;
+	height: 100px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -360,8 +360,7 @@ Header Content
 }
 .header.scrolled .header_content
 {
-	padding-top: 10px;
-	height: 150px;
+	height: 80px;
 }
 
 /*********************************
@@ -416,11 +415,12 @@ Header Content
 }
 .header.scrolled .logo
 {
-	
+	width: 60px;
+	height: 60px;
 }
 .header.scrolled .logo_text
 {
-	
+	font-size: 30px;
 }
 
 /*********************************
@@ -624,11 +624,11 @@ Hamburger
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	height: 95%;
 }
 
 /*********************************
-6. Home
+6. Home - Carrousel properties
 *********************************/
 
 .home
@@ -693,60 +693,7 @@ Hamburger
 	margin: 0 auto;
 	margin-top: 35px;
 }
-.home_search_form div
-{
-	width: calc(100% - 140px);
-	height: 46px;
-	background: #FFFFFF;
-	border-radius: 3px;
-}
-.home_search_input
-{
-	width: 33.33333333%;
-	border: none;
-	outline: none;
-	height: 25px;
-	padding-left: 20px;
-}
-.home_search_input:not(:last-child)
-{
-	border-right: solid 1px #e5e5e5;
-}
-.home_search_input::-webkit-input-placeholder
-{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #b5b8be !important;
-}
-.home_search_input:-moz-placeholder
-{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #b5b8be !important;
-}
-.home_search_input::-moz-placeholder
-{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #b5b8be !important;
-} 
-.home_search_input:-ms-input-placeholder
-{ 
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #b5b8be !important;
-}
-.home_search_input::input-placeholder
-{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px !important;
-	font-weight: 400 !important;
-	color: #b5b8be !important;
-}
+
 .dropdown_item_select
 {
 	position: relative;
@@ -762,21 +709,6 @@ Hamburger
 	background-repeat: no-repeat;
 	padding-right: 20px;
 	padding-left: 20px;
-}
-.home_search_button
-{
-	width: 120px;
-	height: 46px;
-	background: #14bdee;
-	border: none;
-	outline: none;
-	border-radius: 3px;
-	font-size: 14px;
-	font-weight: 500;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	cursor: pointer;
 }
 .home_slider_nav
 {
@@ -1040,6 +972,7 @@ Hamburger
  Ballots
 *********************************/
 
+
 .ballots
 {
 	width: 100%;
@@ -1048,7 +981,7 @@ Hamburger
 }
 .ballots_row
 {
-	margin-top: 45px;
+	margin-top: 55px;
 }
 .ballot
 {

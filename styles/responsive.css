@@ -384,6 +384,21 @@
 		width: 100%;
 		padding-left: 0;
 	}
+	.header.scrolled .header_content
+	{
+		margin-top: 20px;
+		height: 110px;
+	}
+	.header.scrolled .logo	
+	{
+		width: 70px;
+		height: 70px;
+	}
+	.header.scrolled .logo_text
+	{
+		font-size: 30px;
+	}
+
 }
 
 /************
