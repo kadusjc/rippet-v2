@@ -411,8 +411,11 @@ Header Content
 }
 .logo_text span
 {
-	color: #14bdee;
+	color: #fff;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000;	
 }
+
 .header.scrolled .logo
 {
 	width: 60px;
