@@ -870,6 +870,7 @@ Hamburger
   }
   
   .about_video_text  {
+	font-family: 'Roboto Slab', serif;
 	color: #000;
 	top: 35%;
 	text-align: center;
