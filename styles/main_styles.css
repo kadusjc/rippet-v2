@@ -411,7 +411,7 @@ Header Content
 }
 .logo_text span
 {
-	color: #fff;
+	color: transparent;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #000;	
 }
@@ -1137,7 +1137,7 @@ Hamburger
 }
 .footer_logo_text
 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'logoRipPet', serif;
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -1150,7 +1150,9 @@ Hamburger
 }
 .footer_logo_text span
 {
-	color: #14bdee;
+	color: transparent;	
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #ccc;	
 }
 .footer_title
 {
