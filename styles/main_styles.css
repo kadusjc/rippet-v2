@@ -652,7 +652,7 @@ Hamburger
 .home_slider_background
 {
 	position: absolute;
-	top: 0;
+	top: 10px;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -663,8 +663,8 @@ Hamburger
 .home_slider_content
 {
 	position: absolute;
-	top: 50%;
-	left: 0;
+	top: 92%;
+	left: %;
 	width: 100%;
 	height: auto;
 }
@@ -687,9 +687,10 @@ Hamburger
 	color: #ffffff;
 	margin-top: 9px;
 	-webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(101, 135, 197);
-    font-size: 34px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    font-size: 30px;
 }
+
 .home_slider_form_container
 {
 	width: 832px;
@@ -796,7 +797,7 @@ Hamburger
  About
 *********************************/
 .about {
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-left: 0px;
 }
 
@@ -868,6 +869,14 @@ Hamburger
 	min-height: 450px;
   }
   
+  .about_video_text  {
+	color: #000;
+	top: 35%;
+	text-align: center;
+	position: relative;
+    font-size: 15px;
+  }
+
   @media (min-width: 1200px) {
 	.about .video-box {
 	  margin-left: 15px;

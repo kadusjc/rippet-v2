@@ -328,6 +328,17 @@
 	{
 		padding-left: 0px;
 	}
+	/** video text **/
+	.about_video_text  {
+		top: 25%;
+	}
+
+	/** title over carrousel **/
+	.home_slider_subtitle {
+		margin-top: 7px;
+		font-size: 25px;
+	}
+
 }
 
 /************
@@ -398,7 +409,22 @@
 	{
 		font-size: 30px;
 	}
+	/** Carrousel fotos **/
+	.home_slider_background
+	{
+		top: 100px;		
+	}
 
+	/** video text **/
+	.about_video_text  {
+		top: 25%;
+	}
+	/** title over carrousel **/
+	.home_slider_subtitle {
+		margin-top: 5px;
+		font-size: 20px;
+	}
+	
 }
 
 /************
