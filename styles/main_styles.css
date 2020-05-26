@@ -864,7 +864,7 @@ Hamburger
   }
   
   .about .video-box {
-	background: url("../images/about.jpg") center center no-repeat;	
+	background: url("../images/about.jpeg") center center no-repeat;	
 	box-shadow: 0px 5px 40px rgba(29,34,47,0.35);
 	background-size: cover;
 	min-height: 450px;
@@ -872,11 +872,14 @@ Hamburger
   
   .about_video_text  {
 	font-family: 'Roboto Slab', serif;
-	color: #000;
+	color: #fff;
 	top: 35%;
 	text-align: center;
 	position: relative;
-    font-size: 15px;
+	font-size: 17px;
+	text-shadow: black 0.1em 0.1em 0.1em;
+	-webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
   }
 
   @media (min-width: 1200px) {
