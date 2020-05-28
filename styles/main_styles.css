@@ -872,14 +872,12 @@ Hamburger
   
   .about_video_text  {
 	font-family: 'Roboto Slab', serif;
-	color: #fff;
+	color: white;
 	top: 35%;
 	text-align: center;
 	position: relative;
-	font-size: 17px;
-	text-shadow: black 0.1em 0.1em 0.1em;
-	-webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color:rgb(0, 0, 0);
+	font-size: 18px;
+	text-shadow: 0 0 20px black, 0 0 10px black, 0 0 5px black, 0 0 10px black, 0 0 20px black, 0 0 30px black, 0 0 40px black;
   }
 
   @media (min-width: 1200px) {
