@@ -353,6 +353,10 @@
 	{
 		font-size: 25px;
 	}
+	.fa-whatsapp
+	{
+		font-size: 20px;
+	}
 
 }
 
@@ -438,6 +442,10 @@
 	.home_slider_subtitle {
 		margin-top: 5px;
 		font-size: 25px;
+	}
+	.fa-whatsapp
+	{
+		font-size: 20px;
 	}
 	
 }
